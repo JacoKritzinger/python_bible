@@ -1,12 +1,12 @@
 #Ask user for name
 
 name = input("What is your name?: ")
-print(name)
+
 
 #Ask user for age
 
 age = input("What is your age ?: ")
-print(age)
+
 
 
 #Ask user for city
@@ -20,4 +20,10 @@ love = input("What do you love doing?: ")
 
 #Create output text
 
+string = "Your name is {} and are {} years old. You live in {} and you love {}"
+output = string.format(name,age,city,love)
+
 #Pritn output to screen
+
+print(output)
+
